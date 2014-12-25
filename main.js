@@ -3,14 +3,11 @@ define( function ( require, exports, module ) {
 
     var CommandManager     = brackets.getModule( 'command/CommandManager' ),
         Menus              = brackets.getModule( 'command/Menus' ),
-        AppInit            = brackets.getModule( 'utils/AppInit' ),
-        ExtensionUtils     = brackets.getModule( 'utils/ExtensionUtils' ),
-        DocumentManager    = brackets.getModule( 'document/DocumentManager' ),
-        EditorManager      = brackets.getModule( 'editor/EditorManager' ),
         ProjectManager     = brackets.getModule( 'project/ProjectManager' ),
         PreferencesManager = brackets.getModule( 'preferences/PreferencesManager' ),
         MainViewManager    = brackets.getModule( 'view/MainViewManager' ),
-        WorkspaceManager   = brackets.getModule( 'view/WorkspaceManager' );
+        WorkspaceManager   = brackets.getModule( 'view/WorkspaceManager' ),
+        ExtensionUtils     = brackets.getModule( 'utils/ExtensionUtils' );
 
     // Load Extension StyleShhet
     ExtensionUtils.loadStyleSheet( module, 'less/main.less' );
@@ -90,7 +87,7 @@ define( function ( require, exports, module ) {
 
     // Disable context menu when clicking on tab container area
     $('body').on('mousedown', '.working-file-tabs-container', function( e ) {
-        if ( e.target.hasClass('.working-file-tabs-container') ) {
+        if ( $( e.target ).hasClass('.working-file-tabs-container') ) {
             return false;
         }
     } );

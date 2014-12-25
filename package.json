@@ -1,9 +1,9 @@
 {
     "name": "demonmhon.brackets-working-file-tab",
     "title": "Brackets Working File Tabs",
-    "description": "Enable working files list in Sidebar to show as tab",
-    "homepage": "https://github.com/demonmhon",
-    "version": "1.0.0",
+    "description": "Enable working files list in Sidebar to show as tabs",
+    "homepage": "https://github.com/demonmhon/brackets-working-file-tabs",
+    "version": "1.0.1",
     "author": "@demonmhon <thanawat.petchsri@gmail.com> (http://demonmhon.net)",
     "license": "MIT",
     "engines": {
