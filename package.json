@@ -3,7 +3,7 @@
     "title": "Brackets Working File Tabs",
     "description": "Enable working files list in Sidebar to show as tabs",
     "homepage": "https://github.com/demonmhon/brackets-working-file-tabs",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "@demonmhon <thanawat.petchsri@gmail.com> (http://demonmhon.net)",
     "license": "MIT",
     "engines": {
