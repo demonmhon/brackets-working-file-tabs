@@ -17,7 +17,6 @@ define( function ( require, exports, module ) {
 
     // Load Extension StyleShhet
     ExtensionUtils.loadStyleSheet( module, 'less/main.less' );
-    ExtensionUtils.loadStyleSheet( module, 'css/font-awesome.min.css' );
 
     // Add menu item
     var MENU_TEXT        = 'Show Working Files as Tabs';
@@ -53,11 +52,11 @@ define( function ( require, exports, module ) {
         if ( !$( '#working-file-tabs-container' ).length ) {
             var tabContainer = $( '<div>', {
                 'id':    'working-file-tabs-container',
-                'class': 'working-file-tabs-container end-left',
+                'class': 'working-file-tabs-container end-left'
             } );
             var tabScroll = $( '<div>', {
                 'id':    'working-file-tabs-scroll-container',
-                'class': 'working-file-tabs-scroll-container',
+                'class': 'working-file-tabs-scroll-container'
             } );
             tabContainer.append( tabScroll );
 
@@ -71,13 +70,11 @@ define( function ( require, exports, module ) {
 
             var tabButtonLeft = $( '<div>', {
                 'class': 'btn-alt-quiet working-file-tabs-scroll left',
-                'title' : 'Scroll to left tab',
-                'html': '<i class="fa fa-chevron-left"></i>'
+                'html': '<span>◀</span>'
             } );
             var tabButtonRight = $( '<div>', {
                 'class': 'btn-alt-quiet working-file-tabs-scroll right',
-                'title' : 'Scroll to right tab',
-                'html': '<i class="fa fa-chevron-right"></i>'
+                'html': '<span>▶</span>'
             } );
             tabContainer.append( tabButtonLeft );
             tabContainer.append( tabButtonRight );

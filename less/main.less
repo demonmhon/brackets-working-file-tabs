@@ -49,7 +49,7 @@
         top: (@tab-min-height - 22) / 2;
     }
     .working-file-tabs-scroll {
-        font-size: 9px;
+        font-size: 14px;
         text-align: center;
         line-height: 13px;
         position: absolute;
@@ -63,13 +63,13 @@
         &.right {
             right: 4px;
         }
-        i {
+        span {
             opacity: @scroll-disabled;
         }
     }
     &.scroll {
         .working-file-tabs-scroll {
-            i {
+            span {
                 opacity: 1;
             }
         }
@@ -81,7 +81,7 @@
     }
     &.end-left {
         .working-file-tabs-scroll.left {
-            i {
+            span {
                 opacity: @scroll-disabled;
             }
         }

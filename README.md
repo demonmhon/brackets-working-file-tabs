@@ -6,7 +6,7 @@ Enable working files list in Sidebar to show as tabs
 * **Able to switch view between list and tabs** easier to switch the view back to list
 
 ### Screenshots ###
-![Screenshot v.1.0.2](/img/screenshot-1.0.2-01.png)
+![Screenshot v.1.0.3](/img/screenshot-1.0.3-01.png)
 
 ### Usage ###
 1. Install extension
@@ -14,9 +14,10 @@ Enable working files list in Sidebar to show as tabs
 3. Select your preferred view
 
 ### What's New ###
-* Add arrow for scrolling
+* Optimize extension size. Remove font.
 
 ### History ###
+* `v1.0.2` - Add arrow for scrolling.
 * `v1.0.1` - Clean up unused variables. Fix error for context menu.
 
 ###  Notes ###
