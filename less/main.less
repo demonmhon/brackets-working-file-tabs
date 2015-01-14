@@ -14,7 +14,7 @@
 
     .working-file-tabs-scroll-container {
         min-height: @tab-min-height;
-        margin-left: @tool-width;
+        margin-left: @tool-width + 10;
         margin-right: @tab-scroll-width;
         position: relative;
         overflow: hidden;
@@ -39,12 +39,12 @@
         background-color: transparent;
     }
     .working-set-option-btn {
-        left: 31px;
+        left: 36px;
         right: auto;
         top: (@tab-min-height - 22) / 2;
     }
     .working-set-splitview-btn {
-        left: 4px;
+        left: 9px;
         right: auto;
         top: (@tab-min-height - 22) / 2;
     }
@@ -128,7 +128,7 @@
             padding-top: 0;
             padding-bottom: 0;
             min-height: @tab-min-height;
-            line-height: @tab-min-height;
+            line-height: @tab-min-height - 1;
             white-space: nowrap;
         }
         .file-status-icon {
